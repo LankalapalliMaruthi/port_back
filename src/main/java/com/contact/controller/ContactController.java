@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://maruthi-portfolio-eight.vercel.app") // ✅ Restrict to your frontend
+@CrossOrigin(origins = "https://port-front-tau.vercel.app") // ✅ Restrict to your frontend
 @RestController
 @RequestMapping("/api/contact")
 public class ContactController {
